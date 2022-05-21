@@ -3,6 +3,7 @@
 This node.js app was created following the requirements in the brief test:
 
 - consume content from Google PageSpeed API
+- A Cron job is running every minute to store the data fetched from API
 - Analyse and store the data locally JSON format
 - Parse the data and using Google Charts displays some relevant data
 
