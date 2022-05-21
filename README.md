@@ -17,8 +17,9 @@ This node.js app was created following the requirements in the brief test:
 Clone the repo and install the dependencies.
 
 ```bash
-git clone [https://github.com/contentful/the-example-app.nodejs.git](https://github.com/MhemedAbderrahmen/performance-monitoring.git)
-cd perforamnce
+git clone [https://github.com/contentful/the-example-app.nodejs.git](https://github.com/MhemedAbderrahmen/
+mance-monitoring.git)
+cd performance-monitoring
 ```
 
 ```bash
