@@ -7,22 +7,22 @@
       google.charts.setOnLoadCallback(drawChart);
 
       function drawChart() {
+        /**Getting the data sent through */
         var dates = "{{{dates}}}";
         var firstContentfulPaint = "{{{firstContentfulPaint}}}";
         var speedIndex = "{{{speedIndex}}}";
         var score = "{{{score}}}";
         var interactive = "{{{interactive}}}";
-
+        /*Formatting data*/
         var datesArray = dates.split(",")
         var firstContentfulPaintArray = firstContentfulPaint.split(",")
         var speedIndexArray = speedIndex.split(",")
         var scoreArray = score.split(",")
         var interactiveArray = interactive.split(",")
-
+        /*Creating data object*/
         var arrayToDataTable = [['Date', 'FCP LAB']];
         var arrayToDataTable2 = [['Date', 'SPEED INDEX']];
         var arrayToDataTable3 = [['Date', 'INTERACTIVE']];
-
         for (let i = 0; i < datesArray.length; i++) {
           arrayToDataTable.push([datesArray[i], parseInt(firstContentfulPaintArray[i]),]);
           arrayToDataTable2.push([datesArray[i], parseInt(speedIndexArray[i])]);
